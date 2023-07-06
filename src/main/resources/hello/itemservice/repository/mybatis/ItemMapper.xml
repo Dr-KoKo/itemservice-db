@@ -13,7 +13,7 @@
         set item_name=#{updateParam.itemName},
             price=#{updateParam.price},
             quantity=#{updateParam.quantity}
-        where id={id}
+        where id=#{id}
     </update>
 
     <select id="findById" resultType="Item">
